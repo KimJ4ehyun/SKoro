@@ -95,7 +95,7 @@
 
 ![팀원-연말최종평가](./assets/팀원5-연말최종평가.png)
 
-👉 [📄 최종 평가 레포트 확인](./assets/이지민_2025년도_최종 평가.pdf)
+<a href="./assets/이지민_2025년도_최종_평가.pdf" target="_blank">👉 📄 최종 평가 레포트 확인</a>
 
 #### 📌 동료 평가 협업 선택 
 
@@ -155,13 +155,13 @@
 
 ![팀장-팀피드백레포트확인](./assets/팀장6-팀피드백레포트확인.png)
 
-👉 [📄 팀 피드백 레포트 확인](./assets/김도현_2025년도_분기_평가.pdf)
+<a href="./assets/김도현_2025년도_분기_평가.pdf" target="_blank">👉 팀 피드백 레포트 확인</a>
 
 #### 📌 팀 최종 평가 레포트
 
 ![팀장-팀최종평가확인](./assets/팀장7-팀최종평가확인.png)
 
-👉 [📄 팀 최종 평가 레포트 확인](./assets/김도현_2025년도_최종_평가.pdf)
+<a href="./assets/김도현_2025년도_최종_평가.pdf)" target="_blank">👉 팀 최종 평가 레포트 확인</a>
 
 #### 📌 최종 평가 시스템  
 
@@ -173,7 +173,7 @@
 
 ![팀장-팀원의견요약](./assets/팀장10-팀원의견요약.png)
 
-👉 [📄 팀원 의견 요약 확인](./assets/김도현_2025년도_팀원의견요약.pdf)
+<a href="./assets/김도현_2025년도_팀원의견요약.pdf)" target="_blank">👉 팀원 의견 요약 확인</a>
 
 ---
 
@@ -303,24 +303,31 @@ SI 기업 특성상 마감 기한을 매우 중요하게 여기기 때문에, 1�
 다음 프로젝트에서는 이러한 부족함을 보완해 더 적극적으로 개발에 참여하고,  
 내 분야가 아니더라도 필요하다면 도전하며, 모르는 부분은 함께 고민하는 **원팀 마인드셋을 가진 팀원**으로 성장하고 싶습니다.
 
+## 📦 GitHub 레포지토리
+
+- 💻 **프론트엔드**: [SKoro-Frontend](https://github.com/SKALA-10/SKoro-Frontend)
+- 🧪 **백엔드**: [SKoro-Backend](https://github.com/SKALA-10/SKoro-Backend)
+- 🤖 **AI**: [SKoro-AI](https://github.com/SKALA-10/SKoro-AI)
+- 🔧 **인프라**: [SKoro-Infra](https://github.com/SKALA-10/SKoro-Infra)
 
 ## 📹 시연 영상 및 자료
 
-- **발표 자료:** [LUCKALA: AI 성과 평가 시스템](./docs/LUCKALA_AI_성과_평가_시스템.pdf)
-- **시연 영상(1분):** [SKoro 1분 시연 영상](./docs/SKoro_1분_시연_영상.mp4)
-- **시연 영상(5분):** [SKoro 5분 시연 영상](./docs/SKoro_5분_시연_영상.mp4)  
-- **배포 링크:** [SKoro](https://skoro.skala25a.project.skala-ai.com/) (현재 서비스 종료)
+- **발표 자료:** <a href="./docs/LUCKALA_AI_성과_평가_시스템.pdf" target="_blank">LUCKALA: AI 성과 평가 시스템</a>
+- **시연 영상(1분):** <a href="./docs/SKoro_1분_시연_영상.mp4" target="_blank">SKoro 1분 시연 영상</a>
+- **시연 영상(5분):** <a href="./docs/SKoro_5분_시연_영상.mp4" target="_blank">SKoro 5분 시연 영상</a>
+- **배포 링크:** <a href="https://skoro.skala25a.project.skala-ai.com/" target="_blank">SKoro</a> (현재 서비스 종료)
 
 ## 📄 산출물 및 설계 자료
 
-- **물리 ERD:** [LUCKALA_물리ERD_v1.0.docx](./docs/LUCKALA_물리ERD_v1.0.docx)
-- **WBS:** [LUCKALA_WBS_v1.0.xlsx](./docs/LUCKALA_WBS_v1.0.xlsx)
-- **통합 테스트케이스:** [LUCKALA_통합테스트케이스(결과)_v1.0.xlsx](./docs/LUCKALA_통합테스트케이스(결과)_v1.0.xlsx)
-- **UI 정의서:** [LUCKALA_UI정의서_v1.0.pptx](./docs/LUCKALA_UI정의서_v1.0.pptx)
-- **요구사항 정의서:** [LUCKALA_요구사항정의서_v1.2.xlsx](./docs/LUCKALA_요구사항정의서_v1.2.xlsx)
-- **사업수행 계획서:** [LUCKALA_사업수행계획서_v1.2.docx](./docs/LUCKALA_사업수행계획서_v1.2.docx)
-- **개발 표준 정의서:** [LUCKALA_개발표준_정의서_v1.2.docx](./docs/LUCKALA_개발표준정의서_v1.2.docx)
-- **인터페이스 정의서:** [LUCKALA_인터페이스정의서_v1.0.xlsx](./docs/LUCKALA_인터페이스정의서_v1.0.xlsx)
+- **물리 ERD:** <a href="./docs/LUCKALA_물리ERD_v1.0.docx" target="_blank">LUCKALA_물리ERD_v1.0.docx</a>
+- **WBS:** <a href="./docs/LUCKALA_WBS_v1.0.xlsx" target="_blank">LUCKALA_WBS_v1.0.xlsx</a>
+- **통합 테스트케이스:** <a href="./docs/LUCKALA_통합테스트케이스(결과)_v1.0.xlsx" target="_blank">LUCKALA_통합테스트케이스(결과)_v1.0.xlsx</a>
+- **UI 정의서:** <a href="./docs/LUCKALA_UI정의서_v1.0.pptx" target="_blank">LUCKALA_UI정의서_v1.0.pptx</a>
+- **요구사항 정의서:** <a href="./docs/LUCKALA_요구사항정의서_v1.2.xlsx" target="_blank">LUCKALA_요구사항정의서_v1.2.xlsx</a>
+- **사업수행 계획서:** <a href="./docs/LUCKALA_사업수행계획서_v1.2.docx" target="_blank">LUCKALA_사업수행계획서_v1.2.docx</a>
+- **개발 표준 정의서:** <a href="./docs/LUCKALA_개발표준_정의서_v1.2.docx" target="_blank">LUCKALA_개발표준_정의서_v1.2.docx</a>
+- **인터페이스 정의서:** <a href="./docs/LUCKALA_인터페이스정의서_v1.0.xlsx" target="_blank">LUCKALA_인터페이스정의서_v1.0.xlsx</a>
+
 
 ## 📜 License
 
