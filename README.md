@@ -305,30 +305,35 @@ SI 기업 특성상 마감 기한을 매우 중요하게 여기기 때문에, 1�
 
 ## 📦 GitHub 레포지토리
 
-- 💻 **프론트엔드**: [SKoro-Frontend](https://github.com/SKALA-10/SKoro-Frontend)
-- 🧪 **백엔드**: [SKoro-Backend](https://github.com/SKALA-10/SKoro-Backend)
-- 🤖 **AI**: [SKoro-AI](https://github.com/SKALA-10/SKoro-AI)
-- 🔧 **인프라**: [SKoro-Infra](https://github.com/SKALA-10/SKoro-Infra)
+- 💻 <b>프론트엔드</b>: <a href="https://github.com/SKALA-10/SKoro-Frontend" target="_blank">SKoro-Frontend</a>
+- 🧪 <b>백엔드</b>: <a href="https://github.com/SKALA-10/SKoro-Backend" target="_blank">SKoro-Backend</a>
+- 🤖 <b>AI</b>: <a href="https://github.com/SKALA-10/SKoro-AI" target="_blank">SKoro-AI</a>
+- 🔧 <b>인프라</b>: <a href="https://github.com/SKALA-10/SKoro-Infra" target="_blank">SKoro-Infra</a>
+
+---
 
 ## 📹 시연 영상 및 자료
 
-- **발표 자료:** <a href="./docs/LUCKALA_AI_성과_평가_시스템.pdf" target="_blank">LUCKALA: AI 성과 평가 시스템</a>
-- **시연 영상(1분):** <a href="./docs/SKoro_1분_시연_영상.mp4" target="_blank">SKoro 1분 시연 영상</a>
-- **시연 영상(5분):** <a href="./docs/SKoro_5분_시연_영상.mp4" target="_blank">SKoro 5분 시연 영상</a>
-- **배포 링크:** <a href="https://skoro.skala25a.project.skala-ai.com/" target="_blank">SKoro</a> (현재 서비스 종료)
+- <b>발표 자료:</b> <a href="./docs/LUCKALA_AI_성과_평가_시스템.pdf" target="_blank">LUCKALA: AI 성과 평가 시스템</a>
+- <b>시연 영상(1분):</b> <a href="./docs/SKoro_1분_시연_영상.mp4" target="_blank">SKoro 1분 시연 영상</a>
+- <b>시연 영상(5분):</b> <a href="./docs/SKoro_5분_시연_영상.mp4" target="_blank">SKoro 5분 시연 영상</a>
+- <b>배포 링크:</b> <a href="https://skoro.skala25a.project.skala-ai.com/" target="_blank">SKoro</a> (현재 서비스 종료)
+
+---
 
 ## 📄 산출물 및 설계 자료
 
-- **물리 ERD:** <a href="./docs/LUCKALA_물리ERD_v1.0.docx" target="_blank">LUCKALA_물리ERD_v1.0.docx</a>
-- **WBS:** <a href="./docs/LUCKALA_WBS_v1.0.xlsx" target="_blank">LUCKALA_WBS_v1.0.xlsx</a>
-- **통합 테스트케이스:** <a href="./docs/LUCKALA_통합테스트케이스(결과)_v1.0.xlsx" target="_blank">LUCKALA_통합테스트케이스(결과)_v1.0.xlsx</a>
-- **UI 정의서:** <a href="./docs/LUCKALA_UI정의서_v1.0.pptx" target="_blank">LUCKALA_UI정의서_v1.0.pptx</a>
-- **요구사항 정의서:** <a href="./docs/LUCKALA_요구사항정의서_v1.2.xlsx" target="_blank">LUCKALA_요구사항정의서_v1.2.xlsx</a>
-- **사업수행 계획서:** <a href="./docs/LUCKALA_사업수행계획서_v1.2.docx" target="_blank">LUCKALA_사업수행계획서_v1.2.docx</a>
-- **개발 표준 정의서:** <a href="./docs/LUCKALA_개발표준_정의서_v1.2.docx" target="_blank">LUCKALA_개발표준_정의서_v1.2.docx</a>
-- **인터페이스 정의서:** <a href="./docs/LUCKALA_인터페이스정의서_v1.0.xlsx" target="_blank">LUCKALA_인터페이스정의서_v1.0.xlsx</a>
+- <b>물리 ERD:</b> <a href="./docs/LUCKALA_물리ERD_v1.0.docx" target="_blank">LUCKALA_물리ERD_v1.0.docx</a>
+- <b>WBS:</b> <a href="./docs/LUCKALA_WBS_v1.0.xlsx" target="_blank">LUCKALA_WBS_v1.0.xlsx</a>
+- <b>통합 테스트케이스:</b> <a href="./docs/LUCKALA_통합테스트케이스(결과)_v1.0.xlsx" target="_blank">LUCKALA_통합테스트케이스(결과)_v1.0.xlsx</a>
+- <b>UI 정의서:</b> <a href="./docs/LUCKALA_UI정의서_v1.0.pptx" target="_blank">LUCKALA_UI정의서_v1.0.pptx</a>
+- <b>요구사항 정의서:</b> <a href="./docs/LUCKALA_요구사항정의서_v1.2.xlsx" target="_blank">LUCKALA_요구사항정의서_v1.2.xlsx</a>
+- <b>사업수행 계획서:</b> <a href="./docs/LUCKALA_사업수행계획서_v1.2.docx" target="_blank">LUCKALA_사업수행계획서_v1.2.docx</a>
+- <b>개발 표준 정의서:</b> <a href="./docs/LUCKALA_개발표준_정의서_v1.2.docx" target="_blank">LUCKALA_개발표준_정의서_v1.2.docx</a>
+- <b>인터페이스 정의서:</b> <a href="./docs/LUCKALA_인터페이스정의서_v1.0.xlsx" target="_blank">LUCKALA_인터페이스정의서_v1.0.xlsx</a>
 
+---
 
 ## 📜 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the <a href="LICENSE" target="_blank">LICENSE</a> file for details.
