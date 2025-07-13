@@ -11,7 +11,6 @@
 - **팀명**: LUCKALA  
 - **프로젝트명**: SKoro (AI 기반 성과 평가 시스템)  
 - **기간**: 2025.05.20 - 2025.07.07 (7주)
-- **주관 기관**: SK AX AI Leader Academy (SK AX 산하 교육과정)  
 - **목표**: 팀원, 팀장, HR의 성과 평가 부담을 줄이고, 공정하고 투명한 평가를 위해 AI 기반 자동화 시스템을 개발
 
 ## 💡 핵심 가치
@@ -316,17 +315,6 @@ SI 기업 특성상 마감 기한을 매우 중요하게 여기기 때문에, 1�
 - **시연 영상(1분)**: [SKoro 1분 시연 영상](./docs/SKoro_1분_시연_영상.mp4)
 - **시연 영상(5분)**: [SKoro 5분 시연 영상](./docs/SKoro_5분_시연_영상.mp4)
 - **배포 링크**: [SKoro](https://skoro.skala25a.project.skala-ai.com/) (현재 서비스 종료)
-
-## 📄 산출물 및 설계 자료
-
-- **물리 ERD**: [LUCKALA_물리ERD_v1.0.docx](./docs/LUCKALA_물리ERD_v1.0.docx)
-- **WBS**: [LUCKALA_WBS_v1.0.xlsx](./docs/LUCKALA_WBS_v1.0.xlsx)
-- **통합 테스트케이스**: [LUCKALA_통합테스트케이스(결과)_v1.0.xlsx](./docs/LUCKALA_통합테스트케이스(결과)_v1.0.xlsx)
-- **UI 정의서**: [LUCKALA_UI정의서_v1.0.pptx](./docs/LUCKALA_UI정의서_v1.0.pptx)
-- **요구사항 정의서**: [LUCKALA_요구사항정의서_v1.2.xlsx](./docs/LUCKALA_요구사항정의서_v1.2.xlsx)
-- **사업수행 계획서**: [LUCKALA_사업수행계획서_v1.2.docx](./docs/LUCKALA_사업수행계획서_v1.2.docx)
-- **개발 표준 정의서**: [LUCKALA_개발표준_정의서_v1.2.docx](./docs/LUCKALA_개발표준_정의서_v1.2.docx)
-- **인터페이스 정의서**: [LUCKALA_인터페이스정의서_v1.0.xlsx](./docs/LUCKALA_인터페이스정의서_v1.0.xlsx)
 
 ## 📜 License
 
