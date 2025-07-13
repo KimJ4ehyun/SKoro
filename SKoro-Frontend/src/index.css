@@ -1,0 +1,47 @@
+/* global.css */
+@tailwind base;
+@layer base {
+  img {
+    @apply inline-block;
+  }
+
+  .avoid-page-break {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  .page-break-before {
+    page-break-before: always !important;
+    break-before: page !important;
+  }
+}
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Agbalumo';
+  src: url('./assets/fonts/Agbalumo-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  background-color: #f8f8f8;
+  color: #606060;
+}
+
+@keyframes bigBounce {
+  0%,
+  70%,
+  100% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-6px);
+  }
+}
+
+.big-bounce {
+  animation: bigBounce 1.2s infinite ease-in-out;
+}

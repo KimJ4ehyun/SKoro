@@ -1,0 +1,122 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: skoro-ai
+  namespace: sk-team-10
+  labels:
+    app: skoro-ai
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: skoro-ai
+  template:
+    metadata:
+      labels:
+        app: skoro-ai
+      annotations:
+        prometheus.io/scrape: 'true'
+        prometheus.io/port: '8081'
+        prometheus.io/path: '/actuator/prometheus'
+    spec:
+      serviceAccountName: default
+      containers:
+        - name: ai
+          image: amdp-registry.skala-ai.com/skala25a/skoro-ai:1.0.0-40
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8000
+          env:
+            - name: TZ
+              value: Asia/Seoul
+              
+            - name: OPENAI_API_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: skoro-ai-secret
+                  key: OPENAI_API_KEY
+
+            - name: DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: skoro-ai-secret
+                  key: DB_PASSWORD
+
+            - name: DB_HOST
+              valueFrom:
+                secretKeyRef:
+                  name: skoro-ai-secret
+                  key: DB_HOST
+
+            - name: DB_NAME
+              valueFrom:
+                secretKeyRef:
+                  name: skoro-ai-secret
+                  key: DB_NAME
+
+            - name: DB_TYPE
+              valueFrom:
+                secretKeyRef:
+                  name: skoro-ai-secret
+                  key: DB_TYPE
+
+            - name: DB_USERNAME
+              valueFrom:
+                secretKeyRef:
+                  name: skoro-ai-secret
+                  key: DB_USERNAME
+
+            - name: DB_PORT
+              valueFrom:
+                secretKeyRef:
+                  name: skoro-ai-secret
+                  key: DB_PORT
+
+            - name: REDIS_HOST
+              valueFrom:
+                secretKeyRef:
+                  name: skoro-ai-secret
+                  key: REDIS_HOST
+                  
+            - name: REDIS_PORT
+              valueFrom:
+                secretKeyRef:
+                  name: skoro-ai-secret
+                  key: REDIS_PORT
+
+            - name: REDIS_USERNAME
+              valueFrom:
+                secretKeyRef:
+                  name: skoro-ai-secret
+                  key: REDIS_USERNAME
+
+            - name: REDIS_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: skoro-ai-secret
+                  key: REDIS_PASSWORD
+
+            - name: PINECONE_API_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: skoro-ai-secret
+                  key: PINECONE_API_KEY
+
+            - name: PINECONE_INDEX_REPORTS
+              valueFrom:
+                secretKeyRef:
+                  name: skoro-ai-secret
+                  key: PINECONE_INDEX_REPORTS
+
+            - name: PINECONE_INDEX_POLICY
+              valueFrom:
+                secretKeyRef:
+                  name: skoro-ai-secret
+                  key: PINECONE_INDEX_POLICY
+
+            - name: PINECONE_INDEX_APPEALS
+              valueFrom:
+                secretKeyRef:
+                  name: skoro-ai-secret
+                  key: PINECONE_INDEX_APPEALS
+            

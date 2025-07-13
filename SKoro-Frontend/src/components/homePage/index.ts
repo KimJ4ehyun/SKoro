@@ -1,0 +1,7 @@
+export { default as Dashboard } from './Dashboard'
+export { default as TeamList } from './TeamList'
+export { default as Tasks } from './Tasks'
+export { default as Evaluations } from './Evaluations'
+export { default as Calendar } from './Calendar'
+export { default as Performance } from './Performance'
+export { default as ContributionsChart } from './ContributionsChart'

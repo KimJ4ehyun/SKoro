@@ -1,0 +1,18 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: skoro-frontend
+  namespace: skala-argocd
+spec:
+  project: class-2
+  source:
+    repoURL: https://github.com/SKALA-10/SKoro-Infra.git
+    targetRevision: main
+    path: apps/skoro-frontend
+  destination:
+    server: https://96BD83E8CE5CE0396D006BC5CEB350B0.gr7.ap-northeast-2.eks.amazonaws.com
+    namespace: sk-team-10
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true

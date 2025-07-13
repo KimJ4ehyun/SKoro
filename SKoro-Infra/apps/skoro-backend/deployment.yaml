@@ -1,0 +1,109 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: skoro-backend
+  namespace: sk-team-10
+  labels:
+    app: skoro-backend
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: skoro-backend
+  template:
+    metadata:
+      labels:
+        app: skoro-backend
+      annotations:
+        prometheus.io/scrape: 'true'
+        prometheus.io/port: '8081'
+        prometheus.io/path: '/actuator/prometheus'
+    spec:
+      serviceAccountName: default
+      containers:
+        - name: backend
+          image: amdp-registry.skala-ai.com/skala25a/skoro-backend:1.0.0-74
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8080
+          env:
+            - name: TZ
+              value: Asia/Seoul
+              
+            - name: JAVA_TOOL_OPTIONS
+              value: "-Duser.timezone=Asia/Seoul"
+
+            - name: SPRING_PROFILES_ACTIVE
+              value: prod
+
+            - name: DB_URL
+              valueFrom:
+                secretKeyRef:
+                  name: skoro-backend-secret
+                  key: DB_URL
+
+            - name: DB_USER
+              valueFrom:
+                secretKeyRef:
+                  name: skoro-backend-secret
+                  key: DB_USER
+
+            - name: DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: skoro-backend-secret
+                  key: DB_PASSWORD
+
+            - name: REDIS_HOST
+              valueFrom:
+                secretKeyRef:
+                  name: skoro-backend-secret
+                  key: REDIS_HOST
+
+            - name: REDIS_PORT
+              valueFrom:
+                secretKeyRef:
+                  name: skoro-backend-secret
+                  key: REDIS_PORT
+
+            - name: REDIS_USERNAME
+              valueFrom:
+                secretKeyRef:
+                  name: skoro-backend-secret
+                  key: REDIS_USERNAME
+
+            - name: REDIS_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: skoro-backend-secret
+                  key: REDIS_PASSWORD
+
+            - name: JWT_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: skoro-backend-secret
+                  key: JWT_SECRET
+            
+            - name: MAIL_HOST
+              valueFrom:
+                secretKeyRef:
+                  name: skoro-backend-secret
+                  key: MAIL_HOST
+            
+            - name: MAIL_PORT
+              valueFrom:
+                secretKeyRef:
+                  name: skoro-backend-secret
+                  key: MAIL_PORT
+            
+            - name: MAIL_USERNAME
+              valueFrom:
+                secretKeyRef:
+                  name: skoro-backend-secret
+                  key: MAIL_USERNAME
+            
+            - name: MAIL_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: skoro-backend-secret
+                  key: MAIL_PASSWORD

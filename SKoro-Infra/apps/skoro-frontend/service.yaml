@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: skoro-frontend
+  namespace: sk-team-10
+spec:
+  selector:
+    app: skoro-frontend
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+  type: ClusterIP

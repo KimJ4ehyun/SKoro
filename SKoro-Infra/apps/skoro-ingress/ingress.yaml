@@ -1,0 +1,54 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: skoro-ingress
+  namespace: sk-team-10
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt-prod
+    nginx.ingress.kubernetes.io/proxy-read-timeout: "600"
+    nginx.ingress.kubernetes.io/proxy-send-timeout: "600"
+    nginx.ingress.kubernetes.io/client-body-timeout: "600"
+    nginx.ingress.kubernetes.io/proxy-buffering: "off"
+spec:
+  ingressClassName: public-nginx
+  tls:
+    - hosts:
+        - skoro.skala25a.project.skala-ai.com
+      secretName: skoro-tls-secret
+  rules:
+    - host: skoro.skala25a.project.skala-ai.com
+      http:
+        paths:
+          - path: /api/ai
+            pathType: Prefix
+            backend:
+              service:
+                name: skoro-ai
+                port:
+                  number: 8000
+
+          - path: /api/swagger
+            pathType: Prefix
+            backend:
+              service:
+                name: skoro-backend
+                port:
+                  number: 8080
+
+          - path: /api
+            pathType: Prefix
+            backend:
+              service:
+                name: skoro-backend
+                port:
+                  number: 8080
+
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: skoro-frontend
+                port:
+                  number: 80
+
+          
