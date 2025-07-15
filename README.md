@@ -205,13 +205,13 @@
 ### Backend
 
 <div style="background-color: #f8f9fa; padding: 15px; border-radius: 5px;">
-  <img src="https://img.shields.io/badge/Java-17-007396?logo=java&logoColor=white">
+  <img src="https://img.shields.io/badge/Java-17.0.9-007396?logo=java&logoColor=white">
   <img src="https://img.shields.io/badge/Spring_Boot-3.5.0-6DB33F?logo=springboot&logoColor=white">
-  <img src="https://img.shields.io/badge/Spring_Security-6.x-6DB33F?logo=springsecurity&logoColor=white">
-  <img src="https://img.shields.io/badge/Spring_Data_JPA-3.x-6DB33F?logo=spring&logoColor=white">
-  <img src="https://img.shields.io/badge/Redis-3.x-DC382D?logo=redis&logoColor=white">
+  <img src="https://img.shields.io/badge/Spring_Security-6.5.0-6DB33F?logo=springsecurity&logoColor=white">
+  <img src="https://img.shields.io/badge/Spring_Data_JPA-3.5.0-6DB33F?logo=spring&logoColor=white">
+  <img src="https://img.shields.io/badge/Redis-8.0.3-DC382D?logo=redis&logoColor=white">
   <img src="https://img.shields.io/badge/JWT-0.12.6-000000?logo=jsonwebtokens&logoColor=white">
-  <img src="https://img.shields.io/badge/MariaDB-3.x-003545?logo=mariadb&logoColor=white">
+  <img src="https://img.shields.io/badge/MariaDB-3.5.3-003545?logo=mariadb&logoColor=white">
   <img src="https://img.shields.io/badge/OpenAPI-2.8.8-85EA2D?logo=openapiinitiative&logoColor=black">
 </div>
 
